@@ -108,6 +108,9 @@ body {
   font-size: 0.975rem;
   display: block;
 }
+.card__body-price-description-value {
+  color: var(--desaturated-blue);
+}
 .card__body-price-btn {
   font-size: 0.875rem;
   color: var(--bright-blue);
@@ -123,7 +126,6 @@ body {
   display: grid;
   grid-template-columns: 85%;
   grid-template-rows: auto auto;
-  gap: 0.9rem;
   justify-content: center;
   margin-bottom: var(--margin);
 }
@@ -142,6 +144,7 @@ body {
 }
 .card__footer > .primary {
   background-color: var(--bright-blue);
+  box-shadow: 0 10px 10px rgba(100, 100, 197, 0.5);
   color: #fff;
 }
 .card__footer > .primary:hover {
