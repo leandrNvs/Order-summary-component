@@ -45,6 +45,11 @@ body {
   max-width: 300px;
   border-radius: var(--border-radius);
 }
+@media (max-width: 500px) {
+  .card {
+    transform: scale(0.8);
+  }
+}
 @media (min-width: 800px) {
   .card {
     max-width: 370px;
